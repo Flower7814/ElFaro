@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Faro - Inicio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>El Faro</h1>
+        <img src="logo.jpg" alt="Logo de El Faro">
+    </header>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="deportes.html">Deportes</a>
+        <a href="negocios.html">Negocios</a>
+    </nav>
+    
+    <div class="container">
+        <h2>Noticias Generales</h2>
+        <table class="news-table">
+            <tr><th>Imagen</th><th>Título</th><th>Categoría</th><th>Artículo</th></tr>
+            <tr>
+                <td><img src="hurricane.jpg" alt="Huracán en Miami"></td>
+                <td>Huracán Categoría 4 se acerca a Miami</td>
+                <td>Clima</td>
+                <td>El Centro Nacional de Huracanes ha emitido una alerta de huracán para la costa de Florida...</td>
+            </tr>
+            <tr>
+                <td><img src="book_fair.jpg" alt="Feria del Libro Infantil"></td>
+                <td>Feria del Libro Infantil en Frutillar</td>
+                <td>Cultura</td>
+                <td>Este sábado, la ciudad de Frutillar se llenará de magia y creatividad con la Feria del Libro Infantil...</td>
+            </tr>
+            <tr>
+                <td><img src="stray_dog.jpg" alt="Pedro ayuda a perros callejeros"></td>
+                <td>Pedro Sepúlveda ayuda a perros callejeros</td>
+                <td>Sociedad</td>
+                <td>Con un pequeño carrito lleno de bolsas de comida y agua, Pedro Sepúlveda recorre cada día las calles de Santiago...</td>
+            </tr>
+        </table>
+        <video width="500" controls>
+            <source src="stray_cat.mp4" type="video/mp4">
+            Tu navegador no soporta el elemento de video.
+        </video>
+    </div>
+    
+    <footer>
+        <p>Contacto: elfaro@noticias.cl | Teléfono: +56 2 2345 6789</p>
+    </footer>
+</body>
+</html>

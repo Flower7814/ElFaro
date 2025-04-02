@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Faro - Deportes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>El Faro</h1>
+        <img src="logo.jpg" alt="Logo de El Faro">
+    </header>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="deportes.html">Deportes</a>
+        <a href="negocios.html">Negocios</a>
+    </nav>
+    
+    <div class="container">
+        <h2>Deportes</h2>
+        <table class="news-table">
+            <tr><th>Imagen</th><th>Título</th><th>Categoría</th><th>Artículo</th></tr>
+            <tr>
+                <td><img src="basketball.jpg" alt="Basketball Game"></td>
+                <td>Final del Torneo de Basketball</td>
+                <td>Deportes</td>
+                <td>El equipo local se prepara para el gran final del campeonato de basketball...</td>
+            </tr>
+        </table>
+    </div>
+    
+    <footer>
+        <p>Contacto: elfaro@noticias.cl | Teléfono: +56 2 2345 6789</p>
+    </footer>
+</body>
+</html>
